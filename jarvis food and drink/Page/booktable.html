@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../Image/logo.png">
+    <title>Jarvis - Food Menu</title>
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="../bootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/58ec7c6d3d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="foodanddrink.css">
+    <link rel="stylesheet" href="bookandtable.css">
+
+
+</head>
+
+<body>
+
+    <!-- header nav bar -->
+    <div id="book-banner">
+        <nav class="navbar navbar-expand-md fixed-top  navbar-default pt-3">
+            <div class="container">
+                <a href="../index.html" class="navbar-brand logo-text"><img src="../Image/logo.png" width="50px" height="50px" id="logo">Jarvis</a>
+                <button class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#mynav">
+		    		<span class="navbar-toggler-icon" style="color: #000"></span>
+		    	    </button>
+                <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item pr-4">
+                            <a href="../index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item dropdown pr-4">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Menu</a>
+                            <div class="dropdown-menu">
+                                <a href="food.html" class="dropdown-item">Food</a>
+                                <hr>
+                                <a href="drink.html" class="dropdown-item">Drink</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="booktable.html" class="nav-link pr-4">Book A Table</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link ">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link ">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="text-show-case-o">
+                <div class="text-case-o ">
+                    <h2 class="menu-o">BOOK A TABLE</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- write code here -->
+
+
+    <div class="container book-a-table">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="carousel slide" data-ride="carousel" id="mycarousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                        <li data-target="#mycarousel" data-slide-to="3"></li>
+
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../Image/b2.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Humburger</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="../Image/p2.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Pizza</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Image/s1.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Stake</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Image/n3.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Noodel</h1>
+                            </div>
+                        </div>
+                        <a href="#mycarousel" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#mycarousel" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h3 id="id">WANNA TASTE OUR BURGERS WHITHOUT ANY QUEUES? JUST BOOK A TABLE!</h3>
+                <br>
+                <div class="form-group">
+                    <input type="text" name="n" id="" class="form-control" placeholder="Enter your name">
+                </div>
+                <br>
+                <div class="form-group">
+                    <input type="number" name="" id="" class="form-control" placeholder="Enter your phone number">
+                </div>
+                <br>
+                <div class="form-group">
+                    <input type="date" name="" id="" class="form-control">
+                </div>
+                <br>
+                <div class="form-group">
+                    <input type="number" name="" id="" class="form-control" placeholder="8:00">
+                </div>
+                <br>
+                <div class="form-group">
+                    <input type="number" name="" id="" class="form-control" placeholder="Person">
+                </div>
+                <br>
+                <button class="btn btn-outline-secondary" style="color: white; background-color: #161E33;">Submit</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- write code  end here -->
+    <!-- footer -->
+    <div class="main-footer">
+        <footer class="container pt-3 pb-1">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Contact</h3>
+                    <address>
+					Brooklyn<br>
+					376 Fake Street <br>
+					Brooklyn, Ny - 11231<br>
+					(718) 555-1234<br>
+					USA
+					</address>
+                </div>
+                <div class="col-md-6 ">
+                    <h5>"We are Here for You 24 hours A Day"</h5>
+                    <h3 class="pt-2">Connect</h3>
+                    <i class="fab fa-facebook-square fa-2x pr-2"></i>
+                    <i class="fab fa-twitter-square fa-2x pr-2"></i>
+                    <i class="fab fa-instagram fa-2x pr-2"></i>
+                    <i class="fab fa-youtube fa-2x pr-2"></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- script -->
+    <script src="../scripts/navbar.js"></script>
+
+</body>
+
+</html>
